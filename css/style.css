@@ -1,0 +1,13 @@
+.large{
+  width: 140px !important;
+}
+.btn{
+  height: 50px;
+  width: 50px;
+  font-size: 25px;
+}
+#board{
+  padding: 40px 0;
+  margin: 30px 160px;
+  background: #0f0f0f;
+}

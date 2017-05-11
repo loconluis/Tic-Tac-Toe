@@ -14,7 +14,7 @@
 <body>
   <header id="titles" class="container-fluid">
     <div class="row text-center">
-      <div class="col-md-12">
+      <div class="col-xs-12 col-sm-12 col-md-12">
         <h1>Tic-Tac-Toe</h1>
         <h2>Free-Code-Camp</h2>
       </div>
@@ -22,29 +22,29 @@
   </header>
   <section class="container" id="card">
     <div class="row">
-      <div class="col-md-12 text-center">
+      <div class="col-xs-12 col-sm-12 col-md-12 text-center">
         <div id="display-turns">
-          <h4>Choose one</h4>
+          <h4 id="selection">Choose one</h4>
           <a class="btn btn-primary large" id="turnX">X</a>
           <a class="btn btn-primary large" id="turnO">O</a>
         </div>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-xs-12 col-sm-6 col-md-6">
         <div class="container-fluid text-center" id="board">
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-xs-12 col-sm-12 col-md-12">
               <a class="btn btn-default tic" id="0">#</a>
               <a class="btn btn-default tic" id="1">#</a>
               <a class="btn btn-default tic" id="2">#</a>
             </div>
-            <div class="col-md-12">
+            <div class="col-xs-12 col-sm-12 col-md-12">
               <a class="btn btn-default tic" id="3">#</a>
               <a class="btn btn-default tic" id="4">#</a>
               <a class="btn btn-default tic" id="5">#</a>
             </div>
-            <div class="col-md-12">
+            <div class="col-xs-12 col-sm-12 col-md-12">
               <a class="btn btn-default tic" id="6">#</a>
               <a class="btn btn-default tic" id="7">#</a>
               <a class="btn btn-default tic" id="8">#</a>
@@ -52,9 +52,11 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 text-center">
-        <h4>Who wins?</h4>
-        <h5>X</h5>
+      <div class="col-xs-12 col-sm-6 col-md-6 text-center">
+        <div id="titleWin">
+          <h4>Who wins?</h4>
+          <h5 id="winner"></h5>
+        </div>
       </div>
     </div>
   </section>
